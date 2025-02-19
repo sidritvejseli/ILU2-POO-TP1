@@ -66,7 +66,7 @@ public class Village {
 		this.marche.utiliserEtal(marche.trouverEtalLibre(), vendeur, produit, nbProduit);
 		StringBuilder chaine = new StringBuilder();
 		chaine.append(vendeur.getNom() + " cherche un endroit pour vendre " +nbProduit + " " + produit );
-		
+		chaine.append("Le vendeur " + vendeur.getNom() + "vend des fleurs a l'etal n° " );
 		
 		return null;
 	}
