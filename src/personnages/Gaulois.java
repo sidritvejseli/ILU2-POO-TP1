@@ -25,4 +25,7 @@ public class Gaulois extends Personnage {
 		this.effetPotion = forcePotion;
 		parler("Merci Druide, je sens que ma force est " + forcePotion + " fois décuplée.");
 	}
+	boolean equals(Gaulois gaulois) {
+		return this.getNom() == gaulois.getNom();
+	}
 }
